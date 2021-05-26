@@ -6,4 +6,94 @@
     android:layout_height="match_parent"
     tools:context=".HomePage">
 
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="120dp"
+        android:layout_height="91dp"
+        android:layout_marginEnd="140dp"
+        android:textColorHighlight="#F44336"
+        android:textColorHint="#E91E63"
+        app:icon="@drawable/icons8_return_96"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toStartOf="@+id/button6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="#9C27B0" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="120dp"
+        android:layout_height="91dp"
+        android:textColorHighlight="#F44336"
+        android:textColorHint="#E91E63"
+        app:icon="@drawable/icons8_heart_outline_96"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="#9C27B0" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="122dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="1dp"
+        android:textColorHighlight="#F44336"
+        android:textColorHint="#E91E63"
+        app:icon="@drawable/icons8_star_96"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:rippleColor="#9C27B0" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="122dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="6dp"
+        android:textColorHighlight="#F44336"
+        android:textColorHint="#E91E63"
+        app:icon="@drawable/icons8_delete_96"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:rippleColor="#9C27B0" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontal_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="403dp"
+        android:layout_height="510dp"
+        app:srcCompat="@drawable/oip"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="122dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="7dp"
+        android:textColorHighlight="#F44336"
+        android:textColorHint="#E91E63"
+        app:icon="@drawable/icons8_heart_outline_96"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:rippleColor="#9C27B0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
