@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">SpotFinder</string>
+
+    <!-- Page d'accueil -->
+    <string name="home_page_title">découvrir</string>
+    <string name="home_page_last_lieu_section">Derniers lieux touristique</string>
+
+    <!-- Page de collection -->
+    <string name="collection_page_title">Nos collections</string>
+
+    <!-- Page persolalisée -->
+    <string name="item_lieu_name">Nom du lieu touristique</string>
+    <string name="item_lieu_description">Description de lieu touristique</string>
 </resources>
